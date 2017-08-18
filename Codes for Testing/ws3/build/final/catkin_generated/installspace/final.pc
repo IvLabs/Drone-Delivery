@@ -1,0 +1,8 @@
+prefix=/home/anish/ws3/install
+
+Name: final
+Description: Description of final
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/anish/ws3/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/anish/ws4/devel
+
+Name: main1
+Description: Description of main1
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/anish/ws4/devel/lib 
+Requires: 

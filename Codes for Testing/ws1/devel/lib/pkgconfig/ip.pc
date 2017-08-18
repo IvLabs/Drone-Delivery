@@ -1,0 +1,8 @@
+prefix=/home/anish/ws1/devel
+
+Name: ip
+Description: Description of ip
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/anish/ws1/devel/lib 
+Requires: 

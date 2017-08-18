@@ -1,0 +1,17 @@
+# - Config file for the apriltags package
+# It defines the following variables
+#  apriltags_INCLUDE_DIRS - include directories for apriltags
+#  apriltags_LIBRARIES    - libraries to link against
+#  apriltags_DEFINITIONS  - define flags for apriltags
+
+get_filename_component(apriltags_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+
+include("${apriltags_CMAKE_DIR}/apriltagsTargets.cmake")
+get_filename_component(apriltags_INCLUDE_DIRS "${apriltags_CMAKE_DIR}/include/" ABSOLUTE)
+list(APPEND apriltags_INCLUDE_DIRS "@apriltags_INCLUDES@")
+
+#set(apriltags_LIBRARIES "@apriltags_LIBS@")
+#list(APPEND apriltags_LIBRARIES "${apriltags_CMAKE_DIR}/lib/libapriltags.so")
+set(apriltags_LIBRARIES "${apriltags_CMAKE_DIR}/lib/libapriltags.so")
+
+set(apriltags_DEFINITIONS "@apriltags_DEFS@")

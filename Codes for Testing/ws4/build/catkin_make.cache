@@ -1,0 +1,2 @@
+main1
+-DCATKIN_DEVEL_PREFIX=/home/anish/ws4/devel -DCMAKE_INSTALL_PREFIX=/home/anish/ws4/install -G Unix Makefiles

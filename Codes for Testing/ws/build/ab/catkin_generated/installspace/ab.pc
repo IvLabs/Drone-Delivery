@@ -1,0 +1,8 @@
+prefix=/home/anish/ws/install
+
+Name: ab
+Description: Description of ab
+Version: 0.0.0
+Cflags: -I/home/anish/ws/install/include
+Libs: -L/home/anish/ws/install/lib 
+Requires: message_runtime
