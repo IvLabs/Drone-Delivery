@@ -1,0 +1,11 @@
+to run gui and perform gui commands
+
+$ python blowhorn_sim.py 
+## it will open the gui
+
+$ roscore
+$ rosrun mavros mavros_node _fcu_url:=/dev/ttyUSB0:57600
+## it will run mavros node ( if it shows error check $ ls /dev/ttyUSB0)
+
+now you can enter command using gui
+
