@@ -1,1 +1,3 @@
-code for package open and close
+Code for package open and close using servo motors (softServoa and wiringPi libraries)
+Code for ultrasonic sensor interfacing (wiringPi library) and to publish it's data to ROS.
+
